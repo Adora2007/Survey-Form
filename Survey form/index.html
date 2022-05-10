@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+
+</head>
+<body>
+    <form action="">
+        <h1>Hotel (Example)</h1>
+ <hr>
+        <h4>This a survey form. We want to improve our hotel by your precious suggestions.</h4>
+       
+        <p>
+            Have you ever visited our hotel? <br>
+            Yes<input type="radio" name="Tm" id="Tm" required>
+            No <input type="radio" name="Tm" id="Tm" required>
+           <hr><br>
+           
+            <fieldset>
+                <legend>How did you come to know about our hotel? </legend>
+        <select name="Means" id="Means">
+            <option value="Select">---Select the options---</option>
+            <option value="Social_Media">Social_Media</option>
+            <option value="Friends">Friends</option>
+            <option value="Just_visisted">Just gave a visit</option>
+        </select>
+        </fieldset>
+        <hr>
+
+        How much will you rate our service out of a 10?
+        <input type="number" name="no" id="no" required>
+<br> <hr>
+        Will you visit again?
+        <select name="ag" id="ag">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+        <br>
+<hr>
+        Any suggestions?
+        <textarea name="Suggestios" id="suggestions" cols="30" rows="10"></textarea>
+<hr>
+<br>
+    <input type="submit" value="Submit">
+    <hr>
+    Thank you
+
+
+        </p>
+    </form>
+
+    
+</body>
+</html>
